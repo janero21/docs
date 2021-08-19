@@ -1,4 +1,36 @@
----
+---{
+  "request_id": "2pxQ59buGdsHRef",
+  "paystubs": [
+    {
+      "account_id": null,
+      "employee": {
+        "address": {
+          "city": "SAN FRANCISCO",
+          "country": "US",
+          "postal_code": "94133",
+          "region": "CA",
+          "street": "2140 TAYLOR ST"
+        },
+        "name": "ANNA CHARLESTON"
+      },
+      "employer": {
+        "name": "PLAID INC"
+      },
+      "income_breakdown": [],
+      "pay_period_details": {
+        "check_amount": 1490.21,
+        "end_date": "2020-12-15",
+        "gross_earnings": 4500,
+        "pay_day": "2020-12-15",
+        "start_date": "2020-12-01"
+      },
+      "ytd_earnings": {
+        "gross_earnings": 59375,
+        "net_earnings": null
+      }
+    }
+  ]
+}
 title: '{% data variables.product.product_name %}{% ifversion fpt %}.com{% endif %} Help Documentation'
 featuredLinks:
   gettingStarted:
